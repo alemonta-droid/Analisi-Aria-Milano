@@ -255,3 +255,4 @@ if not df_focus.empty:
     else:
         st.info("Nessun dato valido per generare la linea (controlla la colonna 'valore').")
         
+
