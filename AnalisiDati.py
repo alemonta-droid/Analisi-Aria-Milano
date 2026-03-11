@@ -13,8 +13,6 @@ st.write("In questo progetto andremo ad esaminare i dati della qualità dell'ari
 with st.expander("I gas inquinanti, cosa sono e perchè sono pericolosi"):
     st.subheader("Biossido di Azoto NO2")
     st.write("Il biossido di azoto è un gas irritante prodotto principalmente nelle combustioni ad alta temperatura, come quelle dei motori diesel e delle centrali termoelettriche. È pericoloso perché attacca le vie respiratorie causando infiammazioni croniche, edemi polmonari e un aumento della suscettibilità alle infezioni batteriche, oltre a essere un precursore dell'ozono e uno degli agenti che causano lo smog fotochimico.")
-    st.subheader("Ozono O3")
-    st.write("Il biossido di zolfo è un gas prodotto dalla combustione di carburanti fossili contenenti zolfo, come il carbone e gli oli combustibili utilizzati in ambito produttivo e navale. È pericoloso perché provoca grave irritazione polmonare ed è il principale responsabile delle piogge acide che acidificano suoli ed acque, danneggiando gli interi ecosistemi oltre alle costruzioni e ai monumenti.")
     st.subheader("Biossido di zolfo SO2")
     st.write("Il biossido di zolfo è un gas prodotto dalla combustione di carburanti fossili contenenti zolfo, come il carbone e gli oli combustibili utilizzati in ambito produttivo e navale. È pericoloso perché provoca grave irritazione polmonare ed è il principale responsabile delle piogge acide che acidificano suoli ed acque, danneggiando gli interi ecosistemi oltre alle costruzioni e ai monumenti.")
     st.subheader("Ozono O3")
@@ -254,5 +252,6 @@ if not df_focus.empty:
     else:
         st.info("Nessun dato valido per generare la linea (controlla la colonna 'valore').")
         
+
 
 
