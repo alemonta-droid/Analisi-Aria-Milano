@@ -42,7 +42,6 @@ for i in lista_stazioni:
     proprietà["id"] = i["properties"]["id_amat"]
     proprietà["nome"] = i["properties"]["nome"]
     proprietà["inquinanti"] = i["properties"]["inquinanti"]
-    proprietà["coordinate"] = i["geometry"]["coordinates"]
     stazioni.append(proprietà)
 
 
@@ -255,4 +254,5 @@ if not df_focus.empty:
     else:
         st.info("Nessun dato valido per generare la linea (controlla la colonna 'valore').")
         
+
 
